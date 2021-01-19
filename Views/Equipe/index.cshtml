@@ -2,13 +2,13 @@
 @{
     ViewData["Title"]="equipes";
 }
-<form method="POST"  action='@Url.Action("cadastrar")'>
+<form method="POST"  action='@Url.Action("cadastrar")' enctype="multipart/form-data">
     <label>ID</label>
     <input type="text" name="IdEquipe" />
     <label>Nome</label>
      <input type="text" name="Nome" />
      <label>Imagem</label>
-      <input type="text" name="Imagem" />
+      <input type="file" name="Imagem" id="Imagem" />
       <button type="submit">Cadastrar</button>
 </form>
 <table class="table table-strped table-responsive">
@@ -18,12 +18,15 @@
         <th>Foto</th>
     </thead>
     <tbody>
-        @foreach (Equipe equipe in ViewBag)
+        @foreach (Equipe equipe in ViewBag.equipes)
         {
+            
             <tr>
                 <td>@equipe.IdEquipe</td>
                 <td>@equipe.Nome</td>
-                <td>@equipe.Imagem</td>
+                <td>
+                    <img src="/img/Equipes/@equipe.Imagem" alt="imagem da equipe @equipe.Nome" width="40">
+                </td>
             </tr>
         }
     </tbody>

@@ -8,13 +8,15 @@ namespace eplayers_back.Models
         public void CreateFolderAndFile(string path)
         {
             string folder = path.Split("/")[0];
+             string file     = path.Split("/")[1];
+
             if (!Directory.Exists(folder))
             {
                 Directory.CreateDirectory(folder);
             }
-            if (File.Exists(path))
+            if (!File.Exists(path))
             {
-                File.Create(path);
+                File.Create(path).Close();
             }
         }
 

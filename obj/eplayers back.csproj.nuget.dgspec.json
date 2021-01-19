@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\288\\Desktop\\eplayers back\\eplayers back.csproj": {}
+    "C:\\Users\\288\\Desktop\\eplayersback\\o\\eplayers back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\288\\Desktop\\eplayers back\\eplayers back.csproj": {
+    "C:\\Users\\288\\Desktop\\eplayersback\\o\\eplayers back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\288\\Desktop\\eplayers back\\eplayers back.csproj",
+        "projectUniqueName": "C:\\Users\\288\\Desktop\\eplayersback\\o\\eplayers back.csproj",
         "projectName": "eplayers back",
-        "projectPath": "C:\\Users\\288\\Desktop\\eplayers back\\eplayers back.csproj",
+        "projectPath": "C:\\Users\\288\\Desktop\\eplayersback\\o\\eplayers back.csproj",
         "packagesPath": "C:\\Users\\288\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\288\\Desktop\\eplayers back\\obj\\",
+        "outputPath": "C:\\Users\\288\\Desktop\\eplayersback\\o\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\288\\AppData\\Roaming\\NuGet\\NuGet.Config"
